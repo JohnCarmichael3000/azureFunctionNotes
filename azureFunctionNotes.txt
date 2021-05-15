@@ -1,0 +1,5 @@
+
+
+*** PowerShell 6 to 7 Migration Guide
+https://github.com/Azure/azure-functions-powershell-worker/wiki/PowerShell-6-to-7-Migration-Guide
+
