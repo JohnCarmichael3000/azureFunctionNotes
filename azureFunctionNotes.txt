@@ -1,7 +1,12 @@
 
+Azure Function Notes:
+=====================
 
 *** PowerShell 6 to 7 Migration Guide
 https://github.com/Azure/azure-functions-powershell-worker/wiki/PowerShell-6-to-7-Migration-Guide
+
+Visual Studio Code - keyboard shortcuts - all in one place :)
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
 Manually trigger run on Azure:
 Open Postman and follow these steps:
