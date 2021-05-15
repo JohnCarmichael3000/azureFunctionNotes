@@ -3,3 +3,25 @@
 *** PowerShell 6 to 7 Migration Guide
 https://github.com/Azure/azure-functions-powershell-worker/wiki/PowerShell-6-to-7-Migration-Guide
 
+Manually trigger run on Azure:
+Open Postman and follow these steps:
+Enter the request location in the URL text box: https://yourFunctionAppName.azurewebsites.net/admin/functions/yourFunctionName
+Ensure the HTTP method is set to POST.
+Select the Headers tab.
+Type x-functions-key as the first key and paste the master key (from the clipboard) as the value.
+Type Content-Type as the second key and type application/json as the value.
+Select the Body tab.
+Type { "input": "test" } as the body for the request.
+Select Send.
+
+Manually trigger run Locally:
+Open Postman and follow these steps:
+Enter the request location in the URL text box: http://localhost:7071/admin/functions/yourFunctionName
+Ensure the HTTP method is set to POST.
+Select the Headers tab.
+Type x-functions-key as the first key and paste any string as the value.
+Type Content-Type as the second key and type application/json as the value.
+Select the Body tab.
+Type {} as the body for the request.
+Select Send.
+
